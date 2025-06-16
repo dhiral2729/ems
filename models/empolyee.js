@@ -44,5 +44,5 @@ const EmployeeSchema=new mongoose.Schema({
 
 },{timestamps:true}) 
 
-const Employee=mongoose.model("employee",EmployeeSchema)
+const Employee=mongoose.model("Employee",EmployeeSchema)
 module.exports=Employee;
